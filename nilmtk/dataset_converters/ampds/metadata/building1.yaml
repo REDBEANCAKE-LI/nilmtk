@@ -25,7 +25,6 @@ elec_meters:
   18: *PS18
   19: *PS18
   20: *PS18
-  21: *PS18
 
 appliances:
 - original_name: B1E
@@ -140,33 +139,26 @@ appliances:
   instance: 2
   meters: [17]
 
-- original_name: RSE
-  room: Rental Suite
-  type: unknown
-  description: Sub-Panel, Basement, 1 Occupant
-  instance: 9
-  meters: [18]
-
 - original_name: TVE
   room: Basement Rec Room
   type: television
   description: Entertainment:TV, PVR, AMP
   instance: 1
-  meters: [19]
+  meters: [18]
 
 - original_name: UTE
   room: Basement
   type: sockets 
   description: Utility Plug
   instance: 3
-  meters: [20]
+  meters: [19]
 
 - original_name: WOE
   room: Kitchen
   type: electric oven
   description: Wall Oven
   instance: 1
-  meters: [21]
+  meters: [20]
 
 n_occupants: 3
   start:2012-04-01T06:59:00Z
